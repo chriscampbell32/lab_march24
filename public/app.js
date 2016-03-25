@@ -7,6 +7,12 @@ angular.module("RoutingApp", ["ngRoute"])
             .when('/second',{
                 templateUrl: "second.html"
             })
+            .when('/third', {
+                templateUrl: "third.html"
+            })
+            .when('/fourth', {
+                templateUrl: "fourth.html"
+            })
             .otherwise({
                 templateUrl: "initial.html"
             });
